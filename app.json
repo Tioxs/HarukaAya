@@ -1,17 +1,17 @@
 {
-  "name": "UserBot",
-  "description": "Telegram UserBot",
+  "name": "HarukaAya",
+  "description": "Telegram HarukaAya",
   "logo": "https://i.imgur.com/ZLi4nDP.jpg",
   "keywords": [
     "telegram",
-    "Userbot",
+    "HarukaAya",
     "plugin",
     "modular",
     "productivity"
   ],
   "repository": "https://github.com/NaytSeyd/HarukaAya/",
-  "website":   "https://github.com/RaphielGang/Telegram-UserBot/wiki",
-  "success_url": "https://t.me/userbot_announcements",
+  "website":   "https://github.com/NaytSeyd/HarukaAya/",
+  "success_url": "https://t.me/NightShade",
   "env": {
     "API_KEY": {
       "description": "Ur bot api key.",
