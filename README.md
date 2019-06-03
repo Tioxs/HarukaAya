@@ -7,6 +7,11 @@ Alternatively, [find me on telegram](https://t.me/peaktogoo)! (Keep all support 
 
 You can also join our support group [here!](https://t.me/HarukaAyaBot)
 
+
+### # Heroku Deploy
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+
 ## Thanks to
 
 * MrYacha - For pYanaBot :3
