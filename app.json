@@ -1,0 +1,87 @@
+
+{
+  "name": "Penguen v1.0",
+  "description": "Telegram çok amaçlı grup yönetim botu!",
+  "keywords": [
+    "telegram",
+    "best",
+    "group",
+    "manager",
+    "3"
+  ],
+  "repository": "https://github.com/Tioxxs/Tioxxs",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable env variables",
+      "value": "ANYTHING"
+    },
+    "TOKEN": {
+      "description": "Botunuzun tokenini buraya girin. ",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Sahibin IDsi ",
+      "value": "1125780346"
+    },
+    "OWNER_USERNAME": {
+      "description": "Kullanıcı adın",
+      "value": "TİOX"
+    },
+    "WEBHOOK": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
+      "value": "ANYTHING"
+    },
+    "URL": {
+      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
+      "value": "https://metabetabot.herokuapp.com/"
+    },
+    "MESSAGE_DUMP": {
+      "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
+      "value": "-1007777777777"
+    },
+    "SUDO_USERS": {
+      "description": "Yetkili kullanıcıların idleri",
+      "value": "1125780346"
+    },
+    "SUPPORT_USERS": {
+      "description": "Destekçi kullanıcıların idleri (gban,ungban,gmute...)",
+      "value": "1125780346"
+    },
+    "WHITELIST_USERS": {
+      "description": "Beyaz listeye koymak için seçtiğiniz kullanıcıların idleri.",
+      "value": "1125780346"
+    },
+    "DONATION_LINK": {
+      "description": "Opsyonel: Bağış Linkiniz.",
+      "value": "Geliştiriliyor"
+    },
+    "PORT": {
+      "description": "Webhooklarda kullanılacak port",
+      "value": "8443"
+    },
+    "DEL_CMDS": {
+      "description": "Whether to delete commands from users which don't have rights to use that command",
+      "value": "True"
+    },
+    "STRICT_GBAN": {
+      "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
+      "value": "True"
+    },
+    "ALLOW_EXCL": {
+      "description": "Whether to allow using exclamation marks ! for commands as well as /.",
+      "value": "True"
+    },
+    "BAN_STICKER": {
+      "description": "Which sticker to use when banning people. Use https://telegram.dog/ShowJsonBot to get the file_id",
+      "value": "CgACAgQAAxkBAAEErmBexkcO_MyEAAHThYeRx9n_YwWRsJkAApgFAAKfruBTbfcoe38lFGoZBA"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "9.5"
+      }
+    }
+  ]
+}
