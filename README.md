@@ -4,5 +4,4 @@ This repository deprecated, we have moved Haruka Aya to Gitlab! Please check out
 
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=
-https://github.com/Tioxxs/HarukaAya
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Tioxxs/HarukaAya
